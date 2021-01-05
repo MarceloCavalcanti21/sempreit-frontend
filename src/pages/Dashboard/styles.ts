@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
-import { FiSettings as FiEdit3 } from 'react-icons/fi';
 import { Edit, DeleteForever } from '../../styles/Icons';
 
 export const Container = styled.main`

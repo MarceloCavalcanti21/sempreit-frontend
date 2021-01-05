@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components';
-import { shade } from 'polished';
 
 import signInBackgroundImg from '../../assets/sign-in-background.jpg';
 
