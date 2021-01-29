@@ -2,8 +2,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-//   baseURL: 'http://localhost:3334',
-  baseURL: 'https://dcasa-backend.yourbarber.info',
+  baseURL: process.env.REACT_APP_API_URL,
 });
 
 export default api;
