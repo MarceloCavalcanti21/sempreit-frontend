@@ -42,8 +42,8 @@ jobs:
       run: gsutil -m acl ch -R -u AllUsers:R gs://"$BUCKET"
     
     # Set cache meta for static files
-    - name: Set Cache-Control
-      run: gsutil -m setmeta -h "Cache-Control:public, max-age=15768000" gs://"$BUCKET"/**/*.{png,svg,css,js}
+    # - name: Set Cache-Control
+    #   run: gsutil -m setmeta -h "Cache-Control:public, max-age=15768000" gs://"$BUCKET"/**/*.{png,svg,css,js}
 
     # Set cache meta for index.html
     - name: Set Cache-Control
