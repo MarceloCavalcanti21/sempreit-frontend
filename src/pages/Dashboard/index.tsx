@@ -123,7 +123,7 @@ const Dashboard: React.FC = () => {
     <>
       <Container>
         <Header>
-          <Title>Painel de produtos</Title>
+          <Title>Painel de produtos (teste)</Title>
 
           <Form ref={formRef} onSubmit={() => {}}>
 
